@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+}
+body{
+    background-color: #333;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.container{
+    width: 1440px;
+    margin: auto;
+}
+
+.left a{
+    font-size: 24px;
+}
+
+#logo{
+    padding-right: 10px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    flex-grow: 0.2;
+    justify-content: space-between;
+}
+
+nav ul, .left{
+    display: flex;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    padding: 0px 100px;
+    justify-content: space-between;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(rgba(96, 96, 96, 0.5), rgba(91, 91, 91, 0.5)),
+                      url(images/hero_tads.jpg); 
+    background-size: cover;
+}
+
+.hero{
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.hero h1{
+    font-size: 60px;
+}
+
+.hero p{
+    font-size: 24px;
+    padding: 15px 0;
+}
+
+#BotaoPPC{
+    background-color: #00420c;
+    color: white;
+    height: 50px;
+    width: 150px;
+    border: none;
+    margin: 0 auto;
+}
