@@ -15,12 +15,16 @@ a{
 }
 
 .container{
+    display: flex;
+    flex-direction: column;
     width: 1440px;
     margin: auto;
 }
 
 .left a{
+    display: flex;
     font-size: 24px;
+    align-items: center;
 }
 
 #logo{
@@ -51,6 +55,7 @@ header{
     background-image: linear-gradient(rgba(96, 96, 96, 0.5), rgba(91, 91, 91, 0.5)),
                       url(images/hero_tads.jpg); 
     background-size: cover;
+    color: white;
 }
 
 .hero{
@@ -78,4 +83,137 @@ header{
     width: 150px;
     border: none;
     margin: 0 auto;
+}
+
+#atuacao {
+    background-color: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.paragrafos h1{
+    font-size: 32px;
+}
+
+.paragrafos{
+    width: 800px;
+    text-align: center;
+}
+
+.paragrafos p{
+    padding: 35px 0;
+}
+
+.traco{
+    width: 150px;
+    border-top: black solid 2px;
+    margin-bottom: 80px;
+}
+
+.imagemAtuacao, .imagemAtuacao2{
+    height: 350px;
+}
+
+#atuacaoImages{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.imagemAtuacao{
+    padding: 20px;
+}
+
+.imagemAtuacao2{
+    flex-grow: 0.6;
+    padding: 20px;
+}
+
+.divisoes{
+    padding: 125px 0;
+}
+
+#Destaque{
+    background-color: #e9e2e2;
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+}
+
+.DestaquesLogo{
+    display: flex;
+    width: 1440px;
+    text-align: center;
+    justify-content: space-around;  
+}
+
+#ADP{
+    width: 350px;
+}
+
+#AD, #DS{
+    width: 320px;
+}
+
+.DestaquesLogo h1{
+    font-size: 20px;
+    padding: 25px 0;
+}
+
+#mercadoTrab{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.paragrafos2{
+    width: 800px;
+    text-align: center;
+}
+
+.paragrafos2 p{
+    padding: 20px 0 50px;
+}
+
+.areaAtuacao{
+    font-size: 18px;
+}
+
+#novidades{
+    background-color: #e9e2e2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#form{
+    display: flex;
+    width: 800px;
+    height: 50px;
+    justify-content: space-between;
+}
+
+#inputEmail{
+    flex-grow: 0.6;
+    padding: 0 10px;
+}
+
+#submit{
+    flex-grow: 0.3;
+    color: #ffffff;
+    background-color: #00420c;
+    border-radius: 5px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color:#414a4f;
+    height: 180px;
+    color: #ffffff;
 }

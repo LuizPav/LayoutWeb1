@@ -12,60 +12,92 @@
 <body>
     <div class="container">
     
-        <header>
+        <header id="Home">
             <nav>
                 <div class="left">
-                    <img src="images/LogoTads.svg" alt="LogoTADS" id="logo">
-                    <a href="#logo">TADS</a>
+                    <a href="#logo"><img src="images/LogoTads.svg" alt="LogoTADS" id="logo">TADS</a>
                 </div>
                     <ul>
-                            <a href=""><li>Home</li></a>
-                            <a href=""><li>Atuação</li></a>
-                            <a href=""><li>Destaque</li></a>
-                            <a href=""><li>Mercado</li></a>
+                            <a href="#Home"><li>Home</li></a>
+                            <a href="#atuacao"><li>Atuação</li></a>
+                            <a href="#Destaque"><li>Destaque</li></a>
+                            <a href="#mercadoTrab"><li>Mercado</li></a>
                     </ul>
             </nav>
             <div class="hero">
                 <h1>Análise e Desenvolvimento de Sistemas</h1>
                 <p>IFPE - Recife</p>
-                <button id="BotaoPPC">Baixar PPC</button>
+                <div id="BotaoPPC"><a href="baixarPPC.com"><input type="button" value="Baixar PPC" id="BotaoPPC"></a></div>
             </div>
         </header>
-        Área de Atuação
-        Cria, projeta, desenvolve e configura programas, softwares e sistemas para inúmeras empresas. Faz auditoria de sistemas para avaliar possíveis erros e falhas. Além disso, o tecnólogo em Análise e Desenvolvimento de Sistemas está apto a prestar consultoria e desenvolver pesquisas.
+        <div id="atuacao" class="divisoes">
+            <div class="paragrafos">
+                <h1>Área de Atuação</h1>
+                <p>Cria, projeta, desenvolve e configura programas, softwares e sistemas para inúmeras empresas. Faz auditoria de sistemas para avaliar possíveis erros e falhas. Além disso, o tecnólogo em Análise e Desenvolvimento de Sistemas está apto a prestar consultoria e desenvolver pesquisas.</p>
+            </div>
+            <span class="traco"> </span>
+            <div id="atuacaoImages">
+                <img src="images/curso1.jpg" alt="" class="imagemAtuacao">
+                <img src="images/curso2.jpg" alt="" class="imagemAtuacao2">
+                <img src="images/curso3.jpg" alt="" class="imagemAtuacao2">
+                <img src="images/curso4.jpg" alt="" class="imagemAtuacao">
+            </div>
+        </div>
     
-        Destaque
-        Hoje, o mercado não aceita mais profissionais que se isolam na frente do computador. As empresas exigem pessoas versáteis, dinâmicas, que saibam trabalhar em equipe e possam ter contato com o usuário final do sistema.
-    
-        Análise de Problemas
-        Domine as técnicas de investigação e resolução de problemas complexos, transformando desafios em oportunidades inovadoras. Adquira as ferramentas necessárias para diagnosticar e solucionar problemas de forma eficaz, otimizando processos e sistemas.
-    
-        Desenvolvimento de Sistemas
-        Projete e desenvolva soluções tecnológicas personalizadas, alinhadas às necessidades específicas de cada negócio. Mapeie, modele e implemente sistemas robustos e escaláveis, garantindo a qualidade e a performance.
-    
-        Análise de Dados
-        Extraia insights valiosos a partir de grandes volumes de dados, utilizando técnicas avançadas de análise e visualização. Tome decisões estratégicas embasadas em dados, otimizando processos e impulsionando o crescimento dos negócios.
-    
-        Mercado de Trabalho
-        Como a informática está presente em praticamente todos os setores da sociedade, o tecnólogo em Análise e Desenvolvimento de Sistemas pode atuar em empresas públicas ou privadas, instituições financeiras, consultorias, terceiro setor, empresas especializadas em Tecnologia da Informação (TI), indústrias etc. Outras áreas de atução são:
-    
-        — Gestão da Tecnologia da Informação
-        O curso aborda disciplinas das áreas de informática e gestão, que têm como base a matemática. Dentro de computação, o estudante aprende linguagem de programação, desenvolvimento de softwares e implementação de sistema de banco de dados, entre outros. Já no campo gerencial, estuda administração, contabilidade, finanças, economia, negócios, marketing, gestão de pessoas e gestão da produção, por exemplo.
-    
-        — Jogos Digitais
-        Vale ressaltar que a criatividade é uma qualidade desejável para o estudante de Jogos Digitais, pois o curso transita entre o design, a criação e a informática. Jogar é algo raro durante a graduação. Quem gosta de jogar poderá aprender a desenvolver, mas as duas atividades são distintas.
-    
-        — Sistemas para Internet
-        Para aprender as disciplinas relacionadas à programação específica para a internet, o aluno vai estudar Matemática, em especial, raciocínio lógico. Estatística, inglês e marketing também fazem parte do curso, além de design.
-    
-        Receba nossas novidades
-        Quer aprimorar seus conhecimentos em programação? Assine nossa newsletter e receba dicas, tutoriais e novidades sobre os nossos cursos.
-    
-        Email
-        Inscrever agora
-    
-        Criado por seu_nome. Imagens são uma cortesia de courtesy to Freepik.
-    
+        <div class="divisoes" id="Destaque">
+            <div class="paragrafos">
+                <h1>Destaque</h1>
+                <p>Hoje, o mercado não aceita mais profissionais que se isolam na frente do computador. As empresas exigem pessoas versáteis, dinâmicas, que saibam trabalhar em equipe e possam ter contato com o usuário final do sistema.</p>
+            </div>
+            <span class="traco"> </span>
+            <div class="DestaquesLogo">
+                <div id="ADP">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 -960 960 960" width="48px" fill="#00420c"><path d="M297-160q-8 0-15-4t-11-11l-84-150h71l42 80h90v-30h-72l-42-80H171l-63-110q-2-4-3-7.5t-1-7.5q0-2 4-15l63-110h105l42-80h72v-30h-90l-42 80h-71l84-150q4-7 11-11t15-4h118q13 0 21.5 8.5T445-770v175h-85l-30 30h115v130h-98l-39-80h-98l-30 30h108l40 80h117v215q0 13-8.5 21.5T415-160H297Zm273 0q-29 0-49.5-20.5T500-230q0-21 11-38t29-25v-374q-18-8-29-25t-11-38q0-29 20.5-49.5T570-800q29 0 49.5 20.5T640-730q0 21-11 38t-29 25v114l100-60q-3-31 18-54t52-23q29 0 49.5 20.5T840-620q0 29-20.5 49.5T770-550q-11 0-21-3t-18-8l-108 65 116 93q7-3 15-5t16-2q29 0 49.5 20.5T840-340q0 29-20.5 49.5T770-270q-35 0-55.5-27T702-356l-102-82v146q17 8 28 24.5t11 37.5q0 29-20 49.5T570-160Z"/></svg>
+                    <h1>Análise de Problemas</h1>
+                    <p>Domine as técnicas de investigação e resolução de problemas complexos, transformando desafios em oportunidades inovadoras. Adquira as ferramentas necessárias para diagnosticar e solucionar problemas de forma eficaz, otimizando processos e sistemas.</p>
+                </div>
+                <div id="DS">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 -960 960 960" width="48px" fill="#00420c"><path d="M40-120v-60h880v60H40Zm100-120q-24 0-42-18t-18-42v-480q0-24 18-42t42-18h680q24 0 42 18t18 42v480q0 24-18 42t-42 18H140Zm0-60h680v-480H140v480Zm0 0v-480 480Z"/></svg>
+                    <h1>Desenvolvimento de Sistemas</h1>
+                    <p>Projete e desenvolva soluções tecnológicas personalizadas, alinhadas às necessidades específicas de cada negócio. Mapeie, modele e implemente sistemas robustos e escaláveis, garantindo a qualidade e a performance.</p>
+                </div>
+                <div id="AD">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 -960 960 960" width="48px" fill="#00420c"><path d="M480-120q-151 0-255.5-46.5T120-280v-400q0-66 105.5-113T480-840q149 0 254.5 47T840-680v400q0 67-104.5 113.5T480-120Zm0-488q86 0 176.5-26.5T773-694q-27-32-117.5-59T480-780q-88 0-177 26t-117 60q28 35 116 60.5T480-608Zm-1 214q42 0 84-4.5t80.5-13.5q38.5-9 73.5-22t63-29v-155q-29 16-64 29t-74 22q-39 9-80 14t-83 5q-42 0-84-5t-80.5-14q-38.5-9-73-22T180-618v155q27 16 61 29t72.5 22q38.5 9 80.5 13.5t85 4.5Zm1 214q48 0 99-8.5t93.5-22.5q42.5-14 72-31t35.5-35v-125q-28 16-63 28.5T643.5-352q-38.5 9-80 13.5T479-334q-43 0-85-4.5T313.5-352q-38.5-9-72.5-21.5T180-402v126q5 17 34 34.5t72 31q43 13.5 94 22t100 8.5Z"/></svg>
+                    <h1>Análise de Dados</h1>
+                    <p>Extraia insights valiosos a partir de grandes volumes de dados, utilizando técnicas avançadas de análise e visualização. Tome decisões estratégicas embasadas em dados, otimizando processos e impulsionando o crescimento dos negócios.</p>
+                </div>
+            </div>
+        </div>
+        <div class="divisoes" id="mercadoTrab">
+                <div class="paragrafos">
+                    <h1>Mercado de Trabalho</h1>
+                    <p>Como a informática está presente em praticamente todos os setores da sociedade, o tecnólogo em Análise e Desenvolvimento de Sistemas pode atuar em empresas públicas ou privadas, instituições financeiras, consultorias, terceiro setor, empresas especializadas em Tecnologia da Informação (TI), indústrias etc. Outras áreas de atução são:</p>
+                </div>
+                    <div class="paragrafos2">
+                        <span class="areaAtuacao">— Gestão da Tecnologia da Informação</span>
+                        <p>O curso aborda disciplinas das áreas de informática e gestão, que têm como base a matemática. Dentro de computação, o estudante aprende linguagem de programação, desenvolvimento de softwares e implementação de sistema de banco de dados, entre outros. Já no campo gerencial, estuda administração, contabilidade, finanças, economia, negócios, marketing, gestão de pessoas e gestão da produção, por exemplo.</p>
+                    </div>
+                    <div class="paragrafos2">
+                        <span class="areaAtuacao">— Jogos Digitais</span>
+                        <p>Vale ressaltar que a criatividade é uma qualidade desejável para o estudante de Jogos Digitais, pois o curso transita entre o design, a criação e a informática. Jogar é algo raro durante a graduação. Quem gosta de jogar poderá aprender a desenvolver, mas as duas atividades são distintas.</p>
+                    </div>
+                    <div class="paragrafos2">
+                        <span class="areaAtuacao">— Sistemas para Internet</span>
+                        <p>Para aprender as disciplinas relacionadas à programação específica para a internet, o aluno vai estudar Matemática, em especial, raciocínio lógico. Estatística, inglês e marketing também fazem parte do curso, além de design.</p>
+                    </div>
+        </div>
+        <div class="divisoes" id="novidades">
+                <div class="paragrafos">
+                    <h1>Receba nossas novidades</h1>
+                    <p>Quer aprimorar seus conhecimentos em programação? Assine nossa newsletter e receba dicas, tutoriais e novidades sobre os nossos cursos.</p>
+                </div>
+                    <span class="traco"></span>
+                <form id="form">
+                    <input type="email" placeholder="Email" id="inputEmail" name="email" required>
+                    <input type="submit" value="INSCREVER AGORA" id="submit" name="submit">
+                </form>                
+        </div>
+        <footer>CRIADO POR LUIZ PAVÃO. IMAGENS SÃO UMA CORTESIA DE COURTESY TO &nbsp;<a href="https://br.freepik.com/">FREEPICK</a>.</footer>
     </div>
 </body>
 
