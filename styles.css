@@ -7,7 +7,7 @@
     font-size: 16px;
 }
 body{
-    background-color: black;
+    background-color: #000000;
 }
 a{
     text-decoration: none;
@@ -19,6 +19,7 @@ a{
     flex-direction: column;
     width: 1440px;
     margin: auto;
+    color: #414a4f;
 }
 
 .left a{
@@ -108,7 +109,7 @@ header{
 
 .traco{
     width: 150px;
-    border-top: black solid 2px;
+    border-top: #00420c solid 2px;
     margin-bottom: 80px;
 }
 
@@ -120,15 +121,11 @@ header{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-}
-
-.imagemAtuacao{
-    padding: 20px;
+    gap: 40px;
 }
 
 .imagemAtuacao2{
     flex-grow: 0.6;
-    padding: 20px;
 }
 
 .divisoes{
