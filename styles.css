@@ -7,7 +7,7 @@
     font-size: 16px;
 }
 body{
-    background-color: #000000;
+    background-color: black;
 }
 a{
     text-decoration: none;
@@ -15,11 +15,11 @@ a{
 }
 
 .container{
+    color: #414a4f;
     display: flex;
     flex-direction: column;
     width: 1440px;
     margin: auto;
-    color: #414a4f;
 }
 
 .left a{
@@ -65,6 +65,7 @@ header{
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    align-items: center;
     color: white;
 }
 
@@ -83,7 +84,6 @@ header{
     height: 50px;
     width: 150px;
     border: none;
-    margin: 0 auto;
 }
 
 #atuacao {
@@ -109,7 +109,7 @@ header{
 
 .traco{
     width: 150px;
-    border-top: #00420c solid 2px;
+    border-top: black solid 2px;
     margin-bottom: 80px;
 }
 
@@ -121,11 +121,15 @@ header{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 40px;
+}
+
+.imagemAtuacao{
+    padding: 20px;
 }
 
 .imagemAtuacao2{
     flex-grow: 0.6;
+    padding: 20px;
 }
 
 .divisoes{
@@ -143,15 +147,26 @@ header{
     display: flex;
     width: 1440px;
     text-align: center;
-    justify-content: space-around;  
+    align-items: center;
+    justify-content: space-;  
 }
 
-#ADP{
+#AD, #DS, #ADP{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    flex-basis: 485px;
+}
+
+#ADP p{
     width: 350px;
+    flex-grow: 1;
 }
 
-#AD, #DS{
+#AD p, #DS p{
     width: 320px;
+    flex-grow: 1;
 }
 
 .DestaquesLogo h1{
